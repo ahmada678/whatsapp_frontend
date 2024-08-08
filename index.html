@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>room</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="space-room">
+      <label
+        id="size"
+        for="input-room"
+        style="font-size: 2em; text-align: center; width: 10vw"
+        >room</label
+      >
+      <input id="input-room" type="text" placeholder="room name" />
+      <button id="join">join</button>
+      <button id="leave">leave</button>
+    </div>
+
+    <hr />
+    <div id="space-p">
+      <div id="l_chat">
+        <p id="write-msg">chat</p>
+      </div>
+      <div id="r_chat">
+        <p id="main-msg">chat</p>
+      </div>
+    </div>
+    <hr />
+    <div id="space-msg">
+      <input id="input-msg" type="text" placeholder="massege" />
+      <button id="send-msg">send</button>
+    </div>
+  </body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="socket.js"></script>
+</html>
+s
